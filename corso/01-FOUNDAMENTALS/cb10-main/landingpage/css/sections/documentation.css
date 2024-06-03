@@ -1,0 +1,107 @@
+.documentation {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.documentation__intro {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.documentation__title {
+    margin-bottom: 20px;
+}
+
+.documentations__card-list {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.documentation__card {
+    position: relative;
+    width: calc(50% - 12px);
+    background-color: var(--color-lightGrey);
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 40px 12px 60px;
+    transition: all 0.35s ease-in-out;
+}
+
+
+.documentation__card-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background: rgb(114,9,183);
+    background: linear-gradient(0deg, rgba(114,9,183,1) 0%, rgba(0,0,79,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    transition: all 0.35s ease-in-out;
+}
+
+.documentation__card-title {
+    margin-bottom: 20px;
+}
+
+.documentation__card-button {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background-color: var(--color-lightBlue);
+    border-radius: 50%;
+
+    bottom: -24px;
+    left: 50%;
+    transform: translate(-50%, -36px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    font-size: 22px;
+
+    opacity: 0;
+    transition: all 0.35s ease-in-out;
+}
+
+.documentation__card:hover {
+    box-shadow: 12px 12px 0 rgba(43,1,68,.17);
+}
+
+.documentation__card:hover .documentation__card-icon {
+    box-shadow: 12px 12px 0 rgba(0,0,79, 1);
+}
+
+.documentation__card:hover .documentation__card-button {
+    transform: translate(-50%, 0);
+    opacity: 1;
+    text-decoration: none;
+    color: var(--color-darkBlue);
+}
+
+@media (min-width: 1024px) {
+    .documentation {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .documentation__card-list {
+        gap: 20px;
+    }
+
+    .documentation__card {
+        width: calc(25% - 20px);
+    }
+}
+
+

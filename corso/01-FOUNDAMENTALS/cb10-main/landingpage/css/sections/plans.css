@@ -1,0 +1,78 @@
+.plans {
+    position: relative;
+}
+
+.plans__container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.plans__intro {
+    text-align: center;
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    
+}
+
+.plans__title {
+    margin-bottom: 20px;
+}
+
+.plans__elements {
+    position: relative;
+    width: 100%;
+
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plans__card {
+    
+    width: 100%;
+    color: var(--color-darkBlue);
+    text-align: center;
+    padding: 40px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    border: 1px solid var(--color-violet);
+    border-radius: 20px;
+}
+
+
+.plans__card-title {
+    color: var(--color-darkBlue);
+    margin-bottom: 40px;
+}
+
+.plans__card-price {
+    color: var(--color-violet);
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+
+.plans__card-list {
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+
+@media (min-width: 1024px) {
+    .plans__container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .plans__card {
+        max-width: 320px;
+    }
+}

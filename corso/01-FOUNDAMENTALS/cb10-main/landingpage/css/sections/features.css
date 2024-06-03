@@ -1,0 +1,83 @@
+.features {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+.features-image {
+    background-image: url("../../images/circle.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 40px;
+}
+
+.features-image img {
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+}
+
+.features-content {
+    color: var(--color-darkBlue);
+}
+
+.features-items {
+    margin-top: 40px;
+    list-style-type: none;
+}
+
+.features-card {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    margin-bottom: 40px;
+}
+
+.features-card-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgb(114,9,183);
+    background: linear-gradient(0deg, rgba(114,9,183,1) 0%, rgba(0,0,79,1) 100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.features-card-icon img {
+    width: 100%;
+    max-width: 36px;
+    height: auto;
+}
+
+.features-card-text {
+    width: calc(100% - 80px);
+}
+
+@media (min-width: 1024px) {
+    .container-features {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .features-image {
+        width: 50%;
+    }
+
+    .features-content {
+        width: 50%;
+    }
+}

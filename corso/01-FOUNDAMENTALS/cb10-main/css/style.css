@@ -1,0 +1,146 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+}
+
+h1 {
+    /* color: blue; */
+    font-size: 60px;
+    font-weight: 900;
+}
+
+p {
+    color: green;
+    font-size: 22px;
+    text-align: right;
+    /* word-spacing: 10px; */
+}
+
+div {
+    /* background-color: violet; */
+}
+
+p a {
+    color: red;
+}
+
+.yellow h1 {
+    background-color: yellow;
+}
+
+#titolo-arancione {
+    color: orange;
+}
+
+p > span {
+    color: brown;
+    text-transform: capitalize;
+}
+
+h1, h2, h3 {
+    color: black;
+}
+
+.box {
+    width: 100px;
+    /* height: 100px; */
+    background-color: red;
+}
+
+.box-1 {
+    width: 50%;
+    height: 100px;
+    background-color: violet;
+}
+
+.box-1:hover {
+    background-color: red;
+}
+
+.box-2 {
+    width: 50%;
+    /* height: 50%; */
+    /* height: 50px; */
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.box-2 img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.box-2 svg {
+    width: 48px;
+    height: auto;
+}
+
+.box-full {
+    /* background-color: #a1b65e; */
+    /* background-color: rgb(161, 182, 94); */
+    /* background-color: rgba(161, 182, 94, 0.7); */
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("banner1.jpg");
+    background-size: cover;
+    /* background-size: 400px; */
+    /* background-position: 40% 10%;
+    background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+}
+
+.main-header {
+
+}
+
+.page-homepage .main-header {
+    background-image: url();
+}
+
+.page-chisiamo .main-header {
+
+}
+
+a {
+    text-decoration: none;
+    /* letter-spacing: 10px; */
+}
+
+a:hover {
+    color:chocolate;
+}
+
+.box-x {
+    border: 3px solid red;
+    border-radius: 8px;
+    /* margin: 80px 40px 60px 100px; */
+    /* margin: 80px 40px; */
+    padding: 40px 60px;
+    
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+/* * {
+    color: green;
+    background-color: red;
+} */
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: red;
+}
